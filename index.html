@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>group randomizer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-3">
+            <form id="data-enter">
+                <div>
+                    <label>Name</label><br>
+                    <input id="name" title="human" name="personName" type="text">
+                </div>
+                <br>
+                <select title="sex" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="col-9">
+            <h1>Station Asignment</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <div id="females">
+                <h1>Gals</h1>
+                <ul>
+                    <li>girl 1</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-5" id="waffles">
+            <h1>Waffle Station</h1>
+            <ul>
+                <li>person</li>
+            </ul>
+        </div>
+        <div class="col-5" id="candy-sushi">
+            <h1>Candy Sushi</h1>
+            <ul>
+                <li>person</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <div id="males">
+                <h1>Guys</h1>
+                <ul>
+                    <li>guy 1</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-5" id="love-language">
+            <h1>Love Language</h1>
+            <ul>
+                <li>person</li>
+            </ul>
+        </div>
+        <div class="col-5" id="games">
+            <h1>Games</h1>
+            <ul>
+                <li>person</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
