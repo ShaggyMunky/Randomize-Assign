@@ -16,72 +16,94 @@
 </head>
 
 <body>
-<div class="container">
-    <div class="row">
-        <div class="col-3">
-            <form id="data-enter">
-                <div>
-                    <label>Name</label><br>
-                    <input id="name" title="human" name="personName" type="text">
-                </div>
-                <br>
-                <select title="sex" name="gender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                </select>
-                <br><br>
-                <button type="submit">Submit</button>
-            </form>
+<div>
+    <form id="data-enter">
+        <div>
+            <label>Name</label><br>
+            <input id="name" title="human" name="personName" type="text">
         </div>
-        <div class="col-9">
-            <h1>Station Asignment</h1>
-        </div>
-    </div>
+        <br>
+        <select title="sex" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <button id="shuffle">Shuffle</button>
+    <h1>Station Asignment</h1>
     <div class="row">
         <div class="col-2">
-            <div id="females">
+            <div id="female">
                 <h1>Gals</h1>
                 <ul>
-                    <li>girl 1</li>
                 </ul>
             </div>
         </div>
-        <div class="col-5" id="waffles">
+        <div class="col-5 display-board border border-info" id="0">
             <h1>Waffle Station</h1>
-            <ul>
-                <li>person</li>
-            </ul>
+            <div class="row">
+                <div class="col-6">
+                    <ul class="female">
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="male">
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="col-5" id="candy-sushi">
+        <div class="col-5 display-board border border-warning" id="1">
             <h1>Candy Sushi</h1>
-            <ul>
-                <li>person</li>
-            </ul>
+            <div class="row">
+                <div class="col-6">
+                    <ul class="female">
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="male">
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row">
         <div class="col-2">
-            <div id="males">
+            <div id="male">
                 <h1>Guys</h1>
                 <ul>
-                    <li>guy 1</li>
                 </ul>
             </div>
         </div>
-        <div class="col-5" id="love-language">
+        <div class="col-5 display-board border border-success" id="2">
             <h1>Love Language</h1>
-            <ul>
-                <li>person</li>
-            </ul>
+            <div class="row">
+                <div class="col-6">
+                    <ul class="female">
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="male">
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="col-5" id="games">
+        <div class="col-5 display-board border border-danger" id="3">
             <h1>Games</h1>
-            <ul>
-                <li>person</li>
-            </ul>
+            <div class="row">
+                <div class="col-6">
+                    <ul class="female">
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <ul class="male">
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
 </body>
 
 </html>
